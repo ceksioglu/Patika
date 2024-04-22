@@ -9,11 +9,11 @@ public class DaireAlan {
         double radius = scanner.nextDouble();
         System.out.print("Merkez açıyı giriniz: ");
         double angle = scanner.nextDouble();
-        // Memory leak için objeyi kapat.
+        // Memory leak için objeyi kapat:
         scanner.close();
-        // Dairenin alanı
+        // Dairenin alanını hesapla:
         double area = (Math.PI * (radius * radius) * angle) / 360;
-        // Display the result
+        // Sonucu yansıt:
         System.out.println("Yarıçapı " + radius + " merkez açısı: " + angle + " olan daire diliminin alanı: " + area +" cm^2");
     }
 }
