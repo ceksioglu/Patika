@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b27cd4c-253e-4037-a852-bb2bfe1649e2" name="Changes" comment="Bugfix.">
+      <change afterPath="$PROJECT_DIR$/src/DaireAlan.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/KdvHesap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Taksimetre.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/UcgenHesaplama.java" afterDir="false" />
@@ -37,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DaireAlan.executor": "Run",
     "Application.Hipotenus.executor": "Run",
     "Application.KdvHesap.executor": "Run",
     "Application.NotOrtalamasi.executor": "Run",
