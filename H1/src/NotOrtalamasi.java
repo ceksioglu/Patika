@@ -26,7 +26,9 @@ public class NotOrtalamasi {
         tarih = calc.nextInt();
 
         int total = (mat+turkce+kimya+fizik+muzik+tarih);
-        double result = (total / 6.0);
+        double average = (total / 6.0);
+
+        String result = (average > 60) ? "Geçti":"Kaldı";
         System.out.println(result);
     }
 }
