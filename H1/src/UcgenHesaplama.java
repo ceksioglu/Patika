@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Hipotenus {
+public class UcgenHesaplama {
     public static void main(String[] args) {
         //Değişken atama ve kullanıcı girişi:
       double a,b,c;
