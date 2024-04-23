@@ -20,3 +20,4 @@ public class BMI {
         scanner.close(); //Memory leak
     }
 }
+//Can Ekşioğlu
