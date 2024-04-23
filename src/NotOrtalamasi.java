@@ -32,3 +32,5 @@ public class NotOrtalamasi {
         System.out.println(result);
     }
 }
+
+//Can Ekşioğlu
