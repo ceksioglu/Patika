@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b27cd4c-253e-4037-a852-bb2bfe1649e2" name="Changes" comment="Bugfix.">
+      <change afterPath="$PROJECT_DIR$/src/ArtikYil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/CinZodyagi.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/HesapMakinesi.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/KullanıcıGirişi.java" afterDir="false" />
@@ -38,6 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Aritmetik.executor": "Run",
+    "Application.ArtikYil.executor": "Run",
     "Application.BMI.executor": "Run",
     "Application.CinZodyagi.executor": "Run",
     "Application.DaireAlan.executor": "Run",

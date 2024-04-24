@@ -38,6 +38,7 @@ public class CinZodyagi {
             default:
                 System.out.println("Yanlış giriş!");
         }
+        scanner.close();
     }
 }
 //Can Ekşioğlu
