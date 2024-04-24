@@ -9,6 +9,7 @@
       <change afterPath="$PROJECT_DIR$/src/CinZodyagi.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/HesapMakinesi.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/KullanıcıGirişi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UcakBilet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/H1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/H1.iml" afterDir="false" />
     </list>
@@ -51,6 +52,7 @@
     "Application.NotOrtalamasi.executor": "Run",
     "Application.Taksimetre.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.UcakBilet.executor": "Run",
     "Application.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
