@@ -5,15 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b27cd4c-253e-4037-a852-bb2bfe1649e2" name="Changes" comment="Bugfix.">
-      <change afterPath="$PROJECT_DIR$/src/Aritmetik.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BMI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DaireAlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KdvHesap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ManavKasa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Taksimetre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UcgenHesaplama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArtikYil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BurcBul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CinZodyagi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HavaEtkinlik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HesapMakinesi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KullanıcıGirişi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SayıSırala.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SınıfGecme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UcakBilet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/H1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aritmetik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aritmetik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BMI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DaireAlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DaireAlan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KdvHesap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KdvHesap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ManavKasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ManavKasa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NotOrtalamasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotOrtalamasi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Taksimetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Taksimetre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UcgenHesaplama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UcgenHesaplama.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,23 +49,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Aritmetik.executor": "Run",
-    "Application.BMI.executor": "Run",
-    "Application.DaireAlan.executor": "Run",
-    "Application.Hipotenus.executor": "Run",
-    "Application.KdvHesap.executor": "Run",
-    "Application.ManavKasa.executor": "Run",
-    "Application.NotOrtalamasi.executor": "Run",
-    "Application.Taksimetre.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Patika",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Aritmetik.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArtikYil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BMI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CinZodyagi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DaireAlan.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HesapMakinesi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hipotenus.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KdvHesap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KullanıcıGirişi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManavKasa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NotOrtalamasi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Taksimetre.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UcakBilet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Patika&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,8 +95,27 @@
       <option name="project" value="LOCAL" />
       <updated>1713792958753</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Bugfix.">
+      <option name="closed" value="true" />
+      <created>1713905536386</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713905536386</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bugfix." />
