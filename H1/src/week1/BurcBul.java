@@ -1,5 +1,7 @@
-public class SayıSırala {
+package week1;
+
+public class BurcBul {
     public static void main(String[] args) {
-        
+
     }
 }

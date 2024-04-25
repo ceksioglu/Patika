@@ -5,16 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b27cd4c-253e-4037-a852-bb2bfe1649e2" name="Changes" comment="Bugfix.">
-      <change afterPath="$PROJECT_DIR$/src/ArtikYil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BurcBul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CinZodyagi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HavaEtkinlik.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HesapMakinesi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KullanıcıGirişi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SınıfGecme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UcakBilet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week1/ArtikYil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week1/BurcBul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week1/CinZodyagi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week1/HavaEtkinlik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week1/HesapMakinesi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week1/KullanıcıGirişi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week1/SayıSırala.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week1/SınıfGecme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week1/UcakBilet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/H1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/H1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aritmetik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/Aritmetik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/BMI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DaireAlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/DaireAlan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KdvHesap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/KdvHesap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ManavKasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/ManavKasa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotOrtalamasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/NotOrtalamasi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Taksimetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/Taksimetre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UcgenHesaplama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/UcgenHesaplama.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
