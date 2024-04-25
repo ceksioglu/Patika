@@ -1,4 +1,3 @@
-package week1;//Ad:patika Şifre:java123
 import java.util.Scanner;
 public class KullanıcıGirişi  {
     public static void main(String[] args) {
