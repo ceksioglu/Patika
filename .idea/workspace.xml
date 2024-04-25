@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b27cd4c-253e-4037-a852-bb2bfe1649e2" name="Changes" comment="Bugfix.">
-      <change afterPath="$PROJECT_DIR$/src/ArtikYil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BurcBul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CinZodyagi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HavaEtkinlik.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HesapMakinesi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KullanıcıGirişi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SayıSırala.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SınıfGecme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UcakBilet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/H1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aritmetik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aritmetik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BMI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DaireAlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DaireAlan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KdvHesap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KdvHesap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ManavKasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ManavKasa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotOrtalamasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotOrtalamasi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Taksimetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Taksimetre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UcgenHesaplama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UcgenHesaplama.java" afterDir="false" />
-    </list>
+    <list default="true" id="1b27cd4c-253e-4037-a852-bb2bfe1649e2" name="Changes" comment="Bugfix." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713905536386</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Bugfix.">
+      <option name="closed" value="true" />
+      <created>1714064006172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714064006172</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
