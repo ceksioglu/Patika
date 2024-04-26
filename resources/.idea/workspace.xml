@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b27cd4c-253e-4037-a852-bb2bfe1649e2" name="Changes" comment="Bugfix.">
+      <change afterPath="$PROJECT_DIR$/src/week2/CiftSayi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ceksioglu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ceksioglu/Patika&quot;,
+    &quot;accountId&quot;: &quot;682e0639-6146-4479-a63f-084f0888685e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2fS27J8plkRfF5UOhHVKvAz84PR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Aritmetik.executor": "Run",
+    "Application.ArtikYil.executor": "Run",
+    "Application.BMI.executor": "Run",
+    "Application.CinZodyagi.executor": "Run",
+    "Application.DaireAlan.executor": "Run",
+    "Application.HesapMakinesi.executor": "Run",
+    "Application.Hipotenus.executor": "Run",
+    "Application.KdvHesap.executor": "Run",
+    "Application.KullanıcıGirişi.executor": "Run",
+    "Application.ManavKasa.executor": "Run",
+    "Application.NotOrtalamasi.executor": "Run",
+    "Application.Taksimetre.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.UcakBilet.executor": "Run",
+    "Application.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Patika",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b27cd4c-253e-4037-a852-bb2bfe1649e2" name="Changes" comment="" />
+      <created>1713779991958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713779991958</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Bugfix.">
+      <option name="closed" value="true" />
+      <created>1713792958753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713792958753</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Bugfix.">
+      <option name="closed" value="true" />
+      <created>1713905536386</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713905536386</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bugfix.">
+      <option name="closed" value="true" />
+      <created>1714064006172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714064006172</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Bugfix.">
+      <option name="closed" value="true" />
+      <created>1714064353696</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714064353696</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Bugfix.">
+      <option name="closed" value="true" />
+      <created>1714064479246</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714064479246</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Bugfix.">
+      <option name="closed" value="true" />
+      <created>1714064568707</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714064568707</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Bugfix." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugfix." />
+  </component>
+</project>
