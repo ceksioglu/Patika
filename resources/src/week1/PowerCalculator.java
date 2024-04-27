@@ -6,16 +6,16 @@ public class PowerCalculator {
     public static void main(String[] args) {
 
         int total = 1;
-        System.out.println("Bu program üslü sayı hesaplar.");
+        System.out.println("This program calculates a power of a number.");
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Sayıyı giriniz:");
+        System.out.println("Enter the base number:");
         int n = scanner.nextInt();
-        System.out.println("Üssü giriniz:");
+        System.out.println("Enter the power:");
         int k = scanner.nextInt();
 
         for (int i=1; i<=k; i++){
             total *= n;
         }
-        System.out.println("Üslü sayı:" +total);
+        System.out.println("Result is:" +total);
     }
 }
