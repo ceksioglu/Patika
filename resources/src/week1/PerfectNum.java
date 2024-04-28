@@ -11,7 +11,7 @@ public class PerfectNum {
         System.out.println("Sayı giriniz: ");
         double num = scanner.nextDouble();
         double sum = 0;
-        
+
         //Sayıyı tam bölen sayıları topla:
         for(int i = 1; i < num; i++){
             if(num % i == 0) {
