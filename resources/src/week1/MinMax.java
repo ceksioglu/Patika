@@ -1,3 +1,5 @@
+package week1;
+
 import java.util.Scanner;
 
 public class MinMax {
@@ -29,8 +31,8 @@ public class MinMax {
                 max = num;
             }
         }
-        System.out.println("En kücük rakam: " + min);
-        System.out.println("En büyük rakam: " + max);
+        System.out.println("En kücük sayı: " + min);
+        System.out.println("En büyük sayı: " + max);
 
         scanner.close();
     }
