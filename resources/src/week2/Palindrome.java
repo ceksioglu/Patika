@@ -1,6 +1,6 @@
 package week2;
 public class Palindrome {
-    
+
     public static boolean isPalindrome(int num) {
         // Base case: single-digit number is always a palindrome
         if (num >= 0 && num < 10) {
