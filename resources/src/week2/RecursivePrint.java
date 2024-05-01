@@ -27,23 +27,23 @@ public class RecursivePrint {
         else if (num > originalInput) {
             return;
         }
-        // If the number is within range, reduce by 5 and continue recursion
+        // Sayıyı 5 azalt ve recursion'a devam et:
         else {
-            System.out.print(num + " "); // Output the current number
-            reduceAndAddByFive(num - 5, originalInput); // Recursive call to reduce by 5
+            System.out.print(num + " "); // Güncel sayıyı göster
+            reduceAndAddByFive(num - 5, originalInput); // 5 ile azaltma recursive fonksiyonu
         }
     }
 
-    // Function to add by 5 recursively
+    // Sayıyı 5 arttırma fonksiyonu
     public static void addByFive(int num, int originalInput) {
-        // If the number reaches the original input, stop recursion
+        // Sayı orjinaline gelince döngüyü bitir
         if (num == originalInput) {
-            System.out.print(num + " "); // Output the current number
+            System.out.print(num + " "); // Güncel sayıyı bastır
         }
-        // If not, output the current number and continue adding by 5 recursively
+        // Sayı ve orjinal değer eşit değilse 5 ekleme fonksiyonu:
         else {
-            System.out.print(num + " "); // Output the current number
-            addByFive(num + 5, originalInput); // Recursive call to add by 5
+            System.out.print(num + " ");
+            addByFive(num + 5, originalInput); // 5 arttırmak için recursive call
         }
     }
 }
