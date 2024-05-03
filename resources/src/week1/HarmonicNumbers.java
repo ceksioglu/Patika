@@ -10,7 +10,6 @@ public class HarmonicNumbers {
         System.out.println("Enter number:");
         int num = scanner.nextInt();
         double result = 0;
-
         for(double i = 1; i <= num; i++){
             result += (1/i);
         }
