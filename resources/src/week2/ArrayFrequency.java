@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ArrayFrequency {
     public static void main(String[] args) {
         // Programın amacını kullanıcıya açıklar.
-        System.out.println("Bu program girilen dizideki sayıların kaç defa tekrar ettiğini hesaplar");
+        System.out.println("Bu program girilen dizideki sayıların kaç defa tekrar ettiğini hesaplar.");
 
         // Kullanıcıdan veri almak için Scanner nesnesi oluşturulur.
         Scanner scanner = new Scanner(System.in);
