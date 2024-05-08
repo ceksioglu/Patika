@@ -3,8 +3,8 @@ package week2;
 public class Boxing {
 
     public static void main(String[] args) {
-        Fighter f1 = new Fighter("Mike",25,200,100);
-        Fighter f2 = new Fighter("Evander",20,200,100);
+        Fighter f1 = new Fighter("Mike",25,200,100,40);
+        Fighter f2 = new Fighter("Evander",20,200,100,50);
 
         Match match = new Match(f1,f2,90,110);
         match.run();
@@ -16,20 +16,32 @@ public class Boxing {
         int damage;
         int health;
         int weight;
+        int dodge;
 
-        Fighter(String name, int damage, int health, int weight){
+        Fighter(String name, int damage, int health, int weight, int dodge){
             this.name = name;
             this.damage = damage;
             this.health = health;
             this.weight = weight;
+            this.dodge = dodge;
         }
 
         int hit(Fighter foe){
             System.out.println(this.name + " => " + foe.name + " " + this.damage + " hasar verdi!");
+
+            if(foe.isDodge()){
+                System.out.println(foe.name + " gelen hasarı blokladı!");
+                return foe.health;
+            }
+
             if(foe.health - this.damage < 0){
                 return 0;
             }
             return foe.health - this.damage;
+        }
+        boolean isDodge(){
+            double randomNumber = Math.random() * 100;
+            return this.dodge >= randomNumber;
         }
 
     }
