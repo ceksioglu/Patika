@@ -1,16 +1,18 @@
 package week4.adventure;
 
 public abstract class PlayerClass {
+    private int id;
     private String name;
     private int damage;
     private int heath;
     private int money;
 
-    public PlayerClass(String name,int damage, int heath, int money) {
+    public PlayerClass(int id, String name, int damage, int heath, int money) {
         this.damage = damage;
         this.heath = heath;
         this.money = money;
         this.name = name;
+        this.id = id;
     }
 
     public int getDamage() {
@@ -43,5 +45,13 @@ public abstract class PlayerClass {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

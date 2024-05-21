@@ -3,6 +3,6 @@ package week4.adventure;
 public class CQC extends PlayerClass {
 
     public CQC(){
-        super("CQC",4,70,20);
+        super(2,"CQC",4,70,20);
     }
 }

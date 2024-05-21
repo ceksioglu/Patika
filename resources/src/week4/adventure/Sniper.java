@@ -3,6 +3,6 @@ package week4.adventure;
 public class Sniper extends PlayerClass{
 
     public Sniper(){
-        super("Sniper",10,30,10);
+        super(3,"Sniper",10,30,10);
     }
 }
