@@ -1,9 +1,9 @@
-package week4.hw;
+package week5;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class TryCatch1 {
+public class TryCatch2 {
 
     static int[] arr = {2,4,6,8,10,12,14,16,18,20};
 
