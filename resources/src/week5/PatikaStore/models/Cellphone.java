@@ -7,6 +7,19 @@ public class Cellphone extends Product {
     private int ram;
     private String color;
 
+    public Cellphone(int id, double price, double discountRate, int stock, String name, Brand brand, String memory, double screenSize, int batteryPower, int ram, String color) {
+        super(id, price, discountRate, stock, name, brand, "Phone");
+        this.memory = memory;
+        this.screenSize = screenSize;
+        this.batteryPower = batteryPower;
+        this.ram = ram;
+        this.color = color;
+    }
+
+    public Cellphone(int id, double price, double discountRate, int stock, String name, Brand brand, String type) {
+        super(id, price, discountRate, stock, name, brand, type);
+    }
+
     public String getMemory() {
         return memory;
     }
@@ -19,22 +32,11 @@ public class Cellphone extends Product {
         return batteryPower;
     }
 
-    public String getColor() {
-        return color;
-    }
-
     public int getRam() {
         return ram;
     }
 
-    public Cellphone(int id, Brand brand, String name, int stock, double discountRate, double price, String memory, double screenSize, int batteryPower, int ram, String color) {
-        super(id, brand, name, stock, discountRate, price);
-        this.memory = memory;
-        this.screenSize = screenSize;
-        this.batteryPower = batteryPower;
-        this.ram = ram;
-        this.color = color;
-
-
+    public String getColor() {
+        return color;
     }
 }

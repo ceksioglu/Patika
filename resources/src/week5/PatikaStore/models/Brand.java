@@ -1,20 +1,20 @@
 package week5.PatikaStore.models;
 
 public class Brand implements Comparable<Brand> {
-    private String title;
+    private String name;
     private int id;
 
-    public Brand(String title, int id) {
-        this.title = title;
+    public Brand(int id,String name) {
+        this.name = name;
         this.id = id;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getId() {
@@ -27,6 +27,6 @@ public class Brand implements Comparable<Brand> {
 
     @Override
     public int compareTo(Brand other) {
-        return this.title.compareTo(other.title);
+        return this.name.compareTo(other.name);
     }
 }

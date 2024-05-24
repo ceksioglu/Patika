@@ -5,8 +5,8 @@ public class Notebook extends Product {
     private String storage;
     private double screenSize;
 
-    public Notebook(int id, Brand brand, String name, int stock, double discountRate, double price, int ram, String storage, double screenSize) {
-        super(id, brand, name, stock, discountRate, price);
+    public Notebook(int id, double price, double discountRate, int stock, String name, Brand brand, int ram, String storage, double screenSize) {
+        super(id, price, discountRate, stock, name, brand, "Notebook");
         this.ram = ram;
         this.storage = storage;
         this.screenSize = screenSize;

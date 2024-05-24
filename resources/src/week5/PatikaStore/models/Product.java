@@ -7,14 +7,16 @@ public abstract class Product {
     private int stock;
     private String name;
     private Brand brand;
+    private String type;
 
-    public Product(int id, Brand brand, String name, int stock, double discountRate, double price) {
+    public Product(int id, double price, double discountRate, int stock, String name, Brand brand, String type) {
         this.id = id;
-        this.brand = brand;
-        this.name = name;
-        this.stock = stock;
-        this.discountRate = discountRate;
         this.price = price;
+        this.discountRate = discountRate;
+        this.stock = stock;
+        this.name = name;
+        this.brand = brand;
+        this.type = type;
     }
 
     public int getId() {
@@ -39,5 +41,9 @@ public abstract class Product {
 
     public Brand getBrand() {
         return brand;
+    }
+
+    public String getType() {
+        return type;
     }
 }
