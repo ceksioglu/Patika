@@ -45,6 +45,9 @@ public class Main {
                     scanner.nextLine();
                     System.out.print("Product Name: ");
                     String name = scanner.nextLine();
+
+                    // Markaları listeler
+                    manager.listBrands();
                     System.out.print("Brand ID: ");
                     int brandId = scanner.nextInt();
                     scanner.nextLine();
@@ -92,6 +95,7 @@ public class Main {
                     break;
                 case 4:
                     // Markaya göre ürün filtreleme
+                    manager.listBrands();
                     System.out.print("Brand ID: ");
                     int filterBrandId = scanner.nextInt();
                     manager.filterProductsByBrand(filterBrandId);
@@ -108,17 +112,17 @@ public class Main {
 
     private static void addMockData(ProductManager manager) {
         // Mock Cellphones
-        manager.addCellphone(799.99, 10, 50, "Samsung Galaxy S21", 1, "128GB", 6.2, 4000, 8, "Phantom Gray");
-        manager.addCellphone(999.99, 15, 30, "iPhone 12", 3, "64GB", 6.1, 3800, 4, "Blue");
-        manager.addCellphone(699.99, 20, 100, "Xiaomi Mi 11", 8, "256GB", 6.5, 4500, 12, "Black");
-        manager.addCellphone(899.99, 5, 40, "OnePlus 9", 2, "128GB", 6.55, 4300, 8, "Astral Black");
-        manager.addCellphone(749.99, 12, 60, "Huawei P40", 4, "128GB", 6.1, 3800, 6, "Silver Frost");
+        manager.addCellphone(999.99, 10, 50, "Samsung Galaxy S23 Ultra", 1, "256GB", 6.8, 5000, 12, "Phantom Black");
+        manager.addCellphone(1099.99, 15, 30, "iPhone 14 Pro", 3, "128GB", 6.1, 3200, 6, "Space Black");
+        manager.addCellphone(799.99, 20, 100, "Xiaomi 13 Pro", 8, "256GB", 6.73, 4820, 12, "Ceramic White");
+        manager.addCellphone(949.99, 5, 40, "OnePlus 11", 2, "256GB", 6.7, 5000, 8, "Titan Black");
+        manager.addCellphone(899.99, 12, 60, "Google Pixel 7 Pro", 4, "128GB", 6.7, 4355, 12, "Obsidian");
 
         // Mock Notebooks
-        manager.addNotebook(1299.99, 10, 20, "MacBook Pro", 3, 16, "512GB SSD", 13.3);
-        manager.addNotebook(999.99, 5, 15, "Dell XPS 13", 6, 8, "256GB SSD", 13.4);
-        manager.addNotebook(1099.99, 8, 10, "HP Spectre x360", 7, 16, "512GB SSD", 13.3);
-        manager.addNotebook(899.99, 12, 25, "Asus ZenBook 14", 6, 8, "512GB SSD", 14.0);
-        manager.addNotebook(799.99, 15, 30, "Lenovo ThinkPad X1", 2, 16, "256GB SSD", 14.0);
+        manager.addNotebook(1999.99, 10, 20, "MacBook Pro 16 M1", 3, 32, "1TB SSD", 16.0);
+        manager.addNotebook(1499.99, 5, 15, "Dell XPS 15", 6, 16, "512GB SSD", 15.6);
+        manager.addNotebook(1599.99, 8, 10, "HP Spectre x360 15", 7, 16, "1TB SSD", 15.6);
+        manager.addNotebook(1299.99, 12, 25, "Asus ZenBook Duo 14", 6, 16, "512GB SSD", 14.0);
+        manager.addNotebook(1399.99, 15, 30, "Lenovo ThinkPad X1 Carbon Gen 9", 2, 16, "1TB SSD", 14.0);
     }
 }

@@ -90,4 +90,12 @@ public class ProductManager {
         }
         return null;
     }
+
+    // Tüm markaları listeler
+    public void listBrands() {
+        System.out.format("%-10s %-20s\n", "Brand ID", "Brand Name");
+        for (Brand brand : brands) {
+            System.out.format("%-10d %-20s\n", brand.getId(), brand.getName());
+        }
+    }
 }
