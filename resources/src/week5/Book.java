@@ -59,6 +59,7 @@ public class Book implements Comparable<Book> {
 
         Set<Book> bookSetByPageCount = new TreeSet<>(Comparator.comparingInt(Book::getPageCount));
         bookSetByPageCount.addAll(bookSet);
+
         System.out.println("\nBooks sorted by page count:");
         for (Book book : bookSetByPageCount) {
             System.out.println(book);
