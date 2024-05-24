@@ -28,23 +28,25 @@ public class ProductManager {
         Collections.sort(brands);
     }
 
-    public void addPhone(double price, double discountRate, int stock, String name, int brandId, String memory, double screenSize, int batteryPower, int ram, String color) {
-        Brand brand = findBrandById(brandId);
+    // Yeni bir cep telefonu ekler
+    public void addCellphone(double price, double discountRate, int stock, String name, int brandId, String memory, double screenSize, int batteryPower, int ram, String color) {
+        Brand brand = findBrandById(brandId); // Markayı id ile bulur
         if (brand != null) {
-            Cellphone phone = new Cellphone(productId++, price, discountRate, stock, name, brand, memory, screenSize, batteryPower, ram, color);
-            products.add(phone);
+            Cellphone cellphone = new Cellphone(productId++, price, discountRate, stock, name, brand, memory, screenSize, batteryPower, ram, color);
+            products.add(cellphone); // Yeni cep telefonunu listeye ekler
         }
     }
 
+    // Yeni bir notebook ekler
     public void addNotebook(double price, double discountRate, int stock, String name, int brandId, int ram, String storage, double screenSize) {
-        Brand brand = findBrandById(brandId);
+        Brand brand = findBrandById(brandId); // Markayı id ile bulur
         if (brand != null) {
             Notebook notebook = new Notebook(productId++, price, discountRate, stock, name, brand, ram, storage, screenSize);
-            products.add(notebook);
+            products.add(notebook); // Yeni notebook'u listeye ekler
         }
     }
 
-    //Bu kod niye çalışıyor sadece Allah biliyor.
+    // Tüm ürünleri listeler
     public void listProducts() {
         System.out.format("%-10s %-20s %-10s %-10s %-10s %-10s %-10s\n", "ID", "Name", "Price", "Discount", "Stock", "Brand", "Type");
         for (Product product : products) {
@@ -52,12 +54,23 @@ public class ProductManager {
         }
     }
 
+    // Belirtilen id'ye sahip ürünü siler
     public void deleteProductById(int id) {
-        products.removeIf(product -> product.getId() == id);
+        Product productToRemove = null;
+        for (Product product : products) {
+            if (product.getId() == id) {
+                productToRemove = product;
+                break;
+            }
+        }
+        if (productToRemove != null) {
+            products.remove(productToRemove); // Ürünü listeden kaldırır
+        }
     }
 
+    // Belirtilen marka id'sine sahip ürünleri filtreler ve listeler
     public void filterProductsByBrand(int brandId) {
-        Brand brand = findBrandById(brandId);
+        Brand brand = findBrandById(brandId); // Markayı id ile bulur
         if (brand != null) {
             System.out.format("%-10s %-20s %-10s %-10s %-10s %-10s %-10s\n", "ID", "Name", "Price", "Discount", "Stock", "Brand", "Type");
             for (Product product : products) {
@@ -68,6 +81,7 @@ public class ProductManager {
         }
     }
 
+    // Belirtilen id'ye sahip markayı bulur
     private Brand findBrandById(int id) {
         for (Brand brand : brands) {
             if (brand.getId() == id) {
