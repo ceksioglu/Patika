@@ -16,10 +16,6 @@ public class Cellphone extends Product {
         this.color = color;
     }
 
-    public Cellphone(int id, double price, double discountRate, int stock, String name, Brand brand, String type) {
-        super(id, price, discountRate, stock, name, brand, type);
-    }
-
     public String getMemory() {
         return memory;
     }

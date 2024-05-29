@@ -1,3 +1,5 @@
+package week5;
+
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -11,7 +13,7 @@ public class WordFrequency {
         String inputText = scanner.nextLine();
 
         // Metni kelimelere ayırma (\\W+ ile)
-        String[] words = inputText.split("[\\W]+");
+        String[] words = inputText.split("\\W+");
 
         // Kelime frekanslarını tutmak için bir HashMap oluşturuluyor
         HashMap<String, Integer> wordCountMap = new HashMap<>();
