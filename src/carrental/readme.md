@@ -1,7 +1,9 @@
 Araç Kiralama Projesi
 
 Bu proje, dört ana modülden oluşan bir araç kiralama sistemini kapsamaktadır: Entity, DAO, Business ve View. Bu modüller, projenin farklı katmanlarını temsil eder ve her biri belirli bir görevi yerine getirir.
-Modüller
+
+Modüller:
+
 Entity Modülü
 
     Veritabanı tablolarını ve bu tablolara ait varlık nesnelerini tanımlar.
