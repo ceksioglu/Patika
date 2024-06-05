@@ -20,7 +20,7 @@
           <grid id="65a67" binding="pnl_user" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
-              <tabbedpane title="Untitled"/>
+              <tabbedpane title="User Data"/>
             </constraints>
             <properties/>
             <border type="none"/>
@@ -34,18 +34,22 @@
                 <children>
                   <component id="a6467" class="javax.swing.JTable" binding="tbl_user">
                     <constraints/>
-                    <properties/>
+                    <properties>
+                      <toolTipText value="Data"/>
+                    </properties>
                   </component>
                 </children>
               </scrollpane>
             </children>
           </grid>
-          <grid id="45146" binding="tab_text" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="45146" binding="pnl_test" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
-              <tabbedpane title="Untitled"/>
+              <tabbedpane title="Test"/>
             </constraints>
-            <properties/>
+            <properties>
+              <toolTipText value=""/>
+            </properties>
             <border type="none"/>
             <children/>
           </grid>

@@ -6,7 +6,10 @@ import week7.entity.User;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
-import java.awt.desktop.UserSessionEvent;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 
 public class UserView extends JFrame {
@@ -16,9 +19,10 @@ public class UserView extends JFrame {
     private JTable tbl_user;
     private JScrollPane scrl_user;
     private JButton btn_user_new;
-    private JPanel tab_text;
+    private JPanel pnl_test;
     private UserController userController;
     private DefaultTableModel mdl_user;
+    private JPopupMenu user_popup;
 
     public UserView(){
         this.add(container);
@@ -31,6 +35,7 @@ public class UserView extends JFrame {
 
         this.userController = new UserController();
         this.mdl_user = new DefaultTableModel();
+        this.user_popup = new JPopupMenu();
 
         // Table Model
         // Kolon başlıklarını oluştur:
@@ -57,5 +62,30 @@ public class UserView extends JFrame {
         this.tbl_user.setEnabled(false);
         this.tbl_user.getTableHeader().setReorderingAllowed(false);
 
+        this.tbl_user.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mousePressed(MouseEvent e) {
+                int selectedRow = tbl_user.rowAtPoint(e.getPoint());
+                tbl_user.setRowSelectionInterval(selectedRow,selectedRow);
+            }
+        });
+
+        this.user_popup.add("Update").addActionListener(e -> {
+            int selectedId = Integer.parseInt(tbl_user.getValueAt(tbl_user.getSelectedRow(),0).toString());
+            User selectedUser = this.userController.getById(selectedId);
+            System.out.println(selectedUser.toString());
+            EditView editView = new EditView(selectedUser);
+        });
+
+        this.user_popup.add("Delete").addActionListener(e -> {
+            int selectedId = Integer.parseInt(tbl_user.getValueAt(tbl_user.getSelectedRow(),0).toString());
+            System.out.println(selectedId);
+        });
+
+        this.tbl_user.setComponentPopupMenu(user_popup);
+
+        btn_user_new.addActionListener(e -> {
+            EditView editView = new EditView(new User());
+        });
     }
 }
