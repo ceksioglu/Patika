@@ -1,19 +1,18 @@
-package week4.adventure;
+package week4.AdventureGame;
 
 import java.util.Scanner;
 
-public abstract class Location extends Game {
+public abstract class Location {
     private Player player;
     private String name;
-    public static Scanner scanner = new Scanner(System.in);
+    public static Scanner input = new Scanner(System.in);
 
-    public Location(Player player, String name) {
-        this.player = player;
+    public Location(String name, Player player) {
         this.name = name;
+        this.player = player;
     }
 
-    abstract boolean onLocation();
-
+    public abstract boolean onLocation();
 
     public String getName() {
         return name;
@@ -23,14 +22,11 @@ public abstract class Location extends Game {
         this.name = name;
     }
 
-    @Override
     public Player getPlayer() {
         return player;
     }
 
-    @Override
     public void setPlayer(Player player) {
         this.player = player;
     }
-
 }
